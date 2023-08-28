@@ -4,7 +4,7 @@ lane-detection for track detection, currently testing with movinets
 # TODO
 
 establish baseline with inception model trained on kitti dataset, use loss to quantify maybe IoU loss
-convert ros images to actual images
+convert ros images to actual images  ------> NOT Required, direct images via drive link
 annotations? mask annotations?
 evaluate accuracy along with memory computation and time
 
