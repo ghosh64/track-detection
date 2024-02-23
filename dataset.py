@@ -19,7 +19,7 @@ class dataset(Dataset):
     """
     Dataset for train/test images
 
-    Images are resize to 320 x 320
+    Images are resized to 320 x 320
     """
     def __init__(self, test=False, transf=transforms.ToTensor()):
         super().__init__()
