@@ -2,6 +2,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import torch
 import matplotlib.pyplot as plt
+import os
 
 from webacnn import WeBACNN
 from dataset import dataset
@@ -27,6 +28,8 @@ def main():
     test_data_loader = DataLoader(test_data_obj, batch_size=8, shuffle=False)
 
     result_path = "PATH TO STORE PREDICT RESULT" # Fill in the path
+    if not os.path.exists(result_path):
+        os.makedirs(result_path)
 
     # Do not need to test label (only predict on test dataset)
     for data, _, img_name in test_data_loader:
