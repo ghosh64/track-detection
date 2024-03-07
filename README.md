@@ -30,7 +30,7 @@ cd webacnn
 python main.py
 ```
 
-To train and test on our dataset on webacnn:
+To train and test on our dataset on FOV:
 
 ```bash
 cd FOV
