@@ -17,20 +17,22 @@ The dataset used to train the webacnn model can be found under data/ in this rep
 
 To reproduce our environment, load the required packages as:
 
-''' bash
+```bash
 conda env create -f environment.yml
-'''
+```
 
 ## Run:
 
 To train and test on our dataset on webacnn:
 
+```bash
 cd webacnn
-
 python main.py
+```
 
 To train and test on our dataset on webacnn:
 
+```bash
 cd FOV
-
 python main.py
+```
