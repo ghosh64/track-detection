@@ -36,3 +36,8 @@ To train and test on our dataset on webacnn:
 cd FOV
 python main.py
 ```
+```bash
+cd main
+```
+
+
