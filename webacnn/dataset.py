@@ -4,6 +4,7 @@ import torchvision.transforms.functional as func
 from PIL import Image
 import os
 
+
 # Defining path for the data
 path = "PATH TO DATA FOLDER" # Fill in the path
 train_path = path + "Train/"
