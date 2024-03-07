@@ -17,7 +17,9 @@ The dataset used to train the webacnn model can be found under data/ in this rep
 
 To reproduce our environment, load the required packages as:
 
-"conda env create -f environment.yml"
+''' bash
+conda env create -f environment.yml
+'''
 
 ## Run:
 
