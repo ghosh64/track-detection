@@ -15,7 +15,7 @@ The dataset used to train the webacnn model can be found under data/ in this rep
 
 ## Environment
 
-To reproduce our environment, load the required packages as:
+To reproduce our environment:
 
 ```bash
 conda env create -f environment.yml
@@ -31,6 +31,8 @@ python main.py
 ```
 
 To train and test on our dataset on FOV:
+
+include information about the format of our dataset and what software was used to generate the labels of the boxes(roboflow?)
 
 ```bash
 cd FOV
