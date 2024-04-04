@@ -1,9 +1,7 @@
 # track-detection
 Codebase for Weighted Branch Aggregation based Deep Learning Model for Track Detection in Autonomous Racing@ ICLR 2024, Tiny Papers Track. 
 
-
-## Folders
-Since our contribution includes the introduction of the lane detection model, webacnn, and the model that predicts the field of view of a frame, FOV, we separate the files and dataset into "webacnn" and "FOV" folders.  
+Our code is divided into two branches-FOV and webacnn. FOV contains all code related to generating the the upper and lower bound for the Field of View including annotated data files. They were annotated manally from the mask images. Webacnn contains code related to generating the lane masks used for detecting the lane.
 
 ## Dataset
 
