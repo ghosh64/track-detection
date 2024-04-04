@@ -31,6 +31,8 @@ python main.py
 To train and test on our dataset on FOV:
 
 include information about the format of our dataset and what software was used to generate the labels of the boxes(roboflow?)
+include the image of our workflow 
+include a citation link incase people use this code
 
 ```bash
 cd FOV
