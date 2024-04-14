@@ -1,7 +1,7 @@
 # track-detection
 Codebase for Weighted Branch Aggregation based Deep Learning Model for Track Detection in Autonomous Racing@ ICLR 2024, Tiny Papers Track. 
 
-Our code is divided into two branches-FOV and webacnn. FOV contains all code related to generating the the upper and lower bound for the Field of View including annotated data files. They were annotated manally from the mask images. Webacnn contains code related to generating the lane masks used for detecting the lane.
+Our code is divided into two branches-FOV and webacnn. FOV contains all code related to generating the the upper and lower bound for the Field of View including annotated data files. Webacnn contains code related to generating the lane masks used for detecting the lane.
 
 ## Dataset
 
@@ -27,7 +27,7 @@ To train and test on our dataset on webacnn:
 cd webacnn
 python main.py
 ```
-##Run FoV model
+Run FoV model
 
 The annotated train, test and validation data splits for FoV are available at track-detection/FOV/data. The images are annotated manually using roboflow in a yolo trainable format. Each label contains (class, x_center, y_center, width, height) of the annotated rectange. The upper and lower bounds for the FoV are (y_center-height/2, y_center+height/2) and this is used to train the DNN. 
 
