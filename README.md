@@ -27,12 +27,11 @@ To train and test on our dataset on webacnn:
 cd webacnn
 python main.py
 ```
+#Run FoV model
 
-To train and test on our dataset on FOV:
+The annotated train, test and validation data splits for FoV are available at track-detection/FOV/data. The images are annotated manually using roboflow in a yolo trainable format. Each label contains (class, x_center, y_center, width, height) of the annotated rectange. The upper and lower bounds for the FoV are (y_center-height/2, y_center+height/2) and this is used to train the DNN. 
 
-include information about the format of our dataset and what software was used to generate the labels of the boxes(roboflow?)
-include the image of our workflow 
-include a citation link incase people use this code
+To train and test on FoV Model:
 
 ```bash
 cd FOV
